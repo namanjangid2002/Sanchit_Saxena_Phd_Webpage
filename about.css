@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    background-color: white;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: black;
+    z-index: 82;
+    padding: 0% 1%;
+    position: sticky !important;
+    top: 0;
+    background-color: black;
+    width: 100%
+}
+
+
+.nav-bar {
+    display: flex;
+    height: auto;
+    width: 40%;
+    justify-content: end;
+    justify-content: flex-end;
+    /* position: relative; */
+    gap: 5%;
+    align-items: center;
+}
+
+.home-button {
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    align-items: baseline;
+    color: white;
+
+}
+
+.aboutme-bar {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    background-color: #FFFFFFC7;
+    padding: 2% 5%;
+    gap: 5vh;
+}
+
+.about {
+    font-weight: 600;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.about-description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.learnmore-button {
+    display: flex;
+    justify-content: center;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 0.5% 0.5%;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+.learnmore-button:hover {
+    background-color: white;
+    color: black;
+    cursor: default;
+}
+
+.education-bar {
+    display: flex;
+    background-color: #FFFFFFC7;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 3vh;
+    padding: 1% 1%;
+}
+
+.education {
+    font-weight: 600;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.edu-description {
+    display: flex;
+    gap: 8vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-description img {
+    height: 8vw;
+    width: auto;
+}
+
+.edu-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+.edu-degree {
+    font-weight: bold;
+}
+
+.edu-college {
+    font-weight: bold;
+}
+
+.experience-bar {
+    display: flex;
+    background-color: #FFFFFFC7;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3vw;
+    padding: 1% 1%;
+}
+
+.experience {
+    font-weight: 600;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.exp-description {
+    display: flex;
+    justify-content: center;
+    gap: 9vw;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.exp-description img {
+    height: 8vw;
+    width: auto;
+}
+
+.exp1-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.iitg-logo img {
+    height: 5vw;
+    width: 5vw;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer {
+    z-index: 2;
+    display: flex;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 2% 1%;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+    .nav-bar {
+        width: 60%;
+        justify-content: space-evenly;
+        font-size: 1.5vh !important;
+    }
+
+    .top-bar {
+        padding: 0% 4%;
+
+    }
+
+    .iitg-logo img {
+        width: 10vh;
+        height: 10vh;
+    }
+
+    .edu-description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .edu-description img {
+        height: 12vh;
+        width: auto;
+    }
+
+    .exp-description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .exp-description img {
+        height: 12vh;
+        width: auto;
+    }
+
+    .referee-all {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .referee-all img {
+        height: 12vh;
+        width: auto;
+    }
+
+    .labskills-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1vh;
+        row-gap: 1vh;
+        padding: 0% 1 0%;
+        justify-content: center;
+    }
+
+    .about {
+        font-size: 5vh;
+    }
+
+    .education {
+        font-size: 3vh;
+    }
+
+    .experience {
+        font-size: 3vh;
+    }
+
+    .labskills {
+        font-size: 3vh;
+    }
+
+    .conference {
+        font-size: 3vh;
+    }
+
+    .honors {
+        font-size: 3vh;
+    }
+
+    .referees {
+        font-size: 3vh;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .learnmore-button {
+        padding: 1vh 1vh;
+    }
+}

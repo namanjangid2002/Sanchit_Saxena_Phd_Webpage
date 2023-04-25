@@ -1,0 +1,402 @@
+body {
+    margin: 0;
+    padding: 0%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    background-color: white;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: black;
+    z-index: 82;
+    padding: 0% 1%;
+    position: sticky !important;
+    top: 0;
+    background-color: black;
+    width: 100%
+}
+
+
+.nav-bar {
+    display: flex;
+    height: auto;
+    width: 40%;
+    /* float: right; */
+    justify-content: end;
+    justify-content: flex-end;
+    /* position: relative; */
+    gap: 5%;
+    align-items: center;
+}
+
+.home-button {
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    /* top: 70vw; */
+    align-items: baseline;
+    color: white;
+
+}
+
+.profile-bar {
+    background-color: #FFFFFFC7;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    padding: 2% 2%;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.profile-photo {
+    display: inline-block;
+    /* margin-left: 20vw;
+        margin-right: 1vw; */
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name {
+    /* display: inline-block; */
+    margin-bottom: 0.5vw;
+    font-weight: 800;
+    font-size: 2vw;
+}
+
+.profile-post {
+    text-align: left;
+    align-items: center;
+    /* display: inline-block; */
+    font-size: 1vw;
+    font-weight: bold;
+    margin-bottom: 1.8vw;
+}
+
+.profile-address-1 {
+    /* display: inline-block; */
+    font-size: 1vw;
+}
+
+.profile-address-2 {
+    /* display: inline-block; */
+    font-size: 1vw;
+    margin-bottom: 3.5vw;
+}
+
+.email {
+    font-size: 1vw;
+}
+
+.research-title {
+    display: flex;
+    background-color: #FFFFFFC7;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1vw;
+    padding: 1% 1%;
+    font-weight: 600;
+    font-size: 2.8vw;
+    box-sizing: border-box;
+}
+
+.cpi-bar {
+    display: flex;
+    background-color: #FFFFFFC7;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1vw;
+    padding: 1% 1%;
+}
+
+.course-completed {
+    font-weight: 600;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 0.1vw;
+    row-gap: 0.1vw;
+    padding: 0% 30%;
+
+}
+
+.course-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5% 5%;
+}
+
+.course-detail {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 5% 5%;
+}
+
+.final-cpi {
+    font-weight: 600;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.courses-taught-bar {
+    display: flex;
+    background-color: #FFFFFFC7;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1vw;
+    padding: 1% 1%;
+}
+
+.courses-taught-heading {
+    font-weight: 600;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.courses-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 25%;
+}
+
+.course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    padding: 0% 5%;
+}
+
+.course-heading {
+    font-weight: bold;
+}
+
+.research-bar {
+    display: flex;
+    background-color: #FFFFFFC7;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1vw;
+    padding: 1% 1%;
+}
+
+.my-research {
+    font-weight: 600;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.research-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    padding: 1% 20%;
+
+}
+
+.research-description-0 {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.research-description-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 1vw;
+}
+
+.research-description-2 {
+    font-weight: bold;
+    font-size: 1vw;
+    text-align: left;
+}
+
+.research-description-3 {
+    display: flex;
+    font-size: 1vw;
+    flex-direction: column;
+    text-align: left;
+}
+
+.iitg-logo img {
+    height: 5vw;
+    width: 5vw;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer {
+    z-index: 2;
+    display: flex;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 2% 1%;
+    color: white;
+}
+
+@media screen and (max-width:800px) {
+    .profile-bar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-bar img {
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .profile-content {
+        width: 90%;
+        font-size: 5vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-logos img {
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .profile-post {
+        text-align: center;
+    }
+
+    .profile-address-2 {
+        text-align: center;
+    }
+
+    .research-title {
+        font-size: 5vh;
+    }
+
+    .profile-name {
+        font-size: 3vh;
+    }
+
+    .profile-post {
+        font-size: 2vh;
+    }
+
+    .profile-address-2 {
+        font-size: 1.5vh;
+    }
+
+    .email {
+        font-size: 1.5vh;
+    }
+
+    .table {
+        padding: 0% 10%;
+    }
+
+    .final-cpi {
+        font-size: 2vh;
+    }
+
+    .my-research {
+        font-size: 5vh;
+    }
+
+    .research-description {
+        padding: 0% 5%;
+    }
+
+    .research-description-0 {
+        font-size: 1.5vh;
+    }
+
+    .research-description-1 {
+        font-size: 1.2vh;
+    }
+
+    .research-description-2 {
+        font-size: 1.5vh;
+    }
+
+    .research-description-3 {
+        font-size: 1.2vh;
+    }
+
+    .course-completed {
+        font-size: 3vh;
+    }
+
+    .courses-taught-heading {
+        font-size: 3vh;
+    }
+
+    .courses-taught-bar {
+        gap: 5vh;
+    }
+
+    .cpi-bar {
+        gap: 3vh;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .nav-bar {
+        width: 60%;
+        justify-content: space-evenly;
+        font-size: 1.5vh !important;
+    }
+
+    .top-bar {
+        padding: 0% 4%;
+
+    }
+
+    .iitg-logo img {
+        width: 10vh;
+        height: 10vh;
+    }
+}
